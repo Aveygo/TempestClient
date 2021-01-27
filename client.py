@@ -6,18 +6,8 @@ version = 'v1.0.3'
 """
 logs:
 
-1.0.2
+1.0.3
 solved mac bugs
-
-
-1.0.2
-Debugging mac bugs
-
-1.0.1
-Added (basic) support for mac users
-
-1.0.0
-Hello
 
 """
 
