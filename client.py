@@ -1,10 +1,13 @@
 
 import argparse
 
-version = 'v1.0.1'
+version = 'v1.0.2'
 
 """
 logs:
+
+1.0.2
+Debugging mac bugs
 
 1.0.1
 Added (basic) support for mac users
