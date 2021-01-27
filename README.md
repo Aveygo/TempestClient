@@ -17,7 +17,7 @@ Change /dir/to/Tempest.sh to where you installed the program or drag and drop it
 ## Python
 If you wish, you can run the client with python 3.7 +. First install [python](https://www.python.org/), then install libraries with command
 ```
-python -m pip install requests sockets pythonping --user
+python -m pip install requests sockets pythonping elevate termcolor --user
 ```
 Finally running the script with 
 ```
