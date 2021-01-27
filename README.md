@@ -19,7 +19,15 @@ If you wish, you can run the client with python 3.7 +. First install [python](ht
 ```
 python -m pip install requests sockets pythonping elevate termcolor --user
 ```
-Finally running the script with 
+and
+```
+python client.py
+```
+on windows or on MacOS / Ubunutu
+```
+python3 -m pip install requests sockets pythonping elevate termcolor --user
+```
+and
 ```
 python client.py
 ```
