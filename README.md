@@ -8,3 +8,13 @@ Download the .exe release and double click to run
 
 ## Ubuntu / MacOS
 Download the .sh release, open terminal (Control+Option+Shift+T for mac users, Ctrl+Alt+T for ubuntu users), then simply drag and drop the downloaded file into the terminal and hit ENTER
+
+## Python
+If you wish, you can run the client with python 3.7 +. First install [python](https://www.python.org/), then install libraries with command
+```
+python -m pip install requests sockets pythonping platform  --user
+```
+Finally running the script with 
+```
+python client.py
+```
