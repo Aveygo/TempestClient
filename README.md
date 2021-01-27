@@ -12,7 +12,8 @@ Please note that if you get a permission error, mark the program as an executabl
 ```
 sudo chmod 755 dir/to/Tempest.sh
 ```
-Change /dir/to/Tempest.sh to where you installed the program or drag and drop it in. MacOS users will also need to install brew:
+Change /dir/to/Tempest.sh to where you installed the program or drag and drop it in. 
+##### MacOS users will also need to install brew for script to run:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
