@@ -12,7 +12,10 @@ Please note that if you get a permission error, mark the program as an executabl
 ```
 sudo chmod 755 dir/to/Tempest.sh
 ```
-Change /dir/to/Tempest.sh to where you installed the program or drag and drop it in
+Change /dir/to/Tempest.sh to where you installed the program or drag and drop it in. MacOS users will also need to install brew:
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 ## Python
 If you wish, you can run the client with python 3.7 +. First install [python](https://www.python.org/), then install libraries with commands
