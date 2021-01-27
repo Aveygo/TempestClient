@@ -265,3 +265,4 @@ except Exception as e:
     print('An error has occured - please be sure to send the following error message to CodingCoda on discord or via email at dmitri.shevchenko.au@gmail.com')
     print('')
     print(str(e))
+    print(client_info)
