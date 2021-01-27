@@ -28,5 +28,5 @@ python client.py
 python3 -m pip install requests sockets pythonping elevate termcolor --user
 ```
 ```
-python client.py
+python3 client.py
 ```
