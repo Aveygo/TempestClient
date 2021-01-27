@@ -28,8 +28,8 @@ python client.py
 ```
 ### MacOS / Ubunutu
 ```
-python3 -m pip install requests sockets pythonping elevate termcolor --user
+sudo python3 -m pip install requests sockets pythonping elevate termcolor --user
 ```
 ```
-python3 client.py
+sudo python3 client.py
 ```
