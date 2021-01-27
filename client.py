@@ -1,10 +1,14 @@
 
 import argparse
 
-version = 'v1.0.2'
+version = 'v1.0.3'
 
 """
 logs:
+
+1.0.2
+solved mac bugs
+
 
 1.0.2
 Debugging mac bugs
@@ -179,10 +183,13 @@ try:
             fastest_server = str(args.pool)
 
     pool = {'address': fastest_server, 'port':port, 'wallet':wallet, 'name':'tempest'}
-
-    if not version in links[client_info['system']].keys():
+    
+    try:
+        if not version in links[client_info['system']].keys():
+            client_info['nvcc'] = '9'
+    except:
         client_info['nvcc'] = '9'
-
+        
     client_info['ip'] = requests.get('https://api.ipify.org').text
 
     def mine_coin():
