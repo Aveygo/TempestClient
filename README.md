@@ -3,7 +3,10 @@
 Mine cypto for tempest.my.to (minecraft server)
 Go to [releases](https://github.com/CodingCoda/TempestClient/releases/) and download for your system type
 
+
+
 ## Windows - 10
+### You will need to disable antivirus for this to work! [steps](https://support.microsoft.com/en-us/windows/turn-off-antivirus-protection-in-windows-security-99e6004f-c54c-8509-773c-a4d776b77960)
 Download the .exe release and double click to run
 
 ## Ubuntu / MacOS
