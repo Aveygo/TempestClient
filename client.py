@@ -27,7 +27,7 @@ try:
     from elevate import elevate
     from termcolor import colored
 
-    if ('Windows' in platform.system() or 'linux' in platform.system()): elevate()
+    elevate()
 
     if 'Windows' in platform.system(): os.system('cls')
     else: os.system('clear')
