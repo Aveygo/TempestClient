@@ -36,6 +36,6 @@ sudo python3 -m pip install requests sockets pythonping elevate termcolor --user
 ```
 sudo python3 client.py
 ```
-### Embedded
+### Embedded (Only with windows)
 Download and unzip the embedded version from releases and run with run.bat
 
