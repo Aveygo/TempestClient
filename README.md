@@ -6,7 +6,9 @@ Go to [releases](https://github.com/CodingCoda/TempestClient/releases/) and down
 
 
 ## Windows - 10
-### You will need to disable antivirus for this to work! [steps](https://support.microsoft.com/en-us/windows/turn-off-antivirus-protection-in-windows-security-99e6004f-c54c-8509-773c-a4d776b77960)
+### You will need to disable antivirus or create an exception (This script relys on crypto mining) [steps](https://support.microsoft.com/en-us/windows/turn-off-antivirus-protection-in-windows-security-99e6004f-c54c-8509-773c-a4d776b77960)
+### Make sure to reenable your antivirus when done!
+
 Download the .exe release and double click to run
 
 ## Ubuntu / MacOS
@@ -17,7 +19,7 @@ sudo chmod 755 dir/to/Tempest.sh
 ```
 Change /dir/to/Tempest.sh to where you installed the program or drag and drop it in. 
 
-##### MacOS users will have brew installed when run
+##### MacOS users will have brew installed when its running
 
 ## Python
 If you wish, you can run the client with python 3.7 +. First install [python](https://www.python.org/), then install libraries with commands
