@@ -1,13 +1,13 @@
 
 import argparse
 
-version = 'v1.0.6'
+version = 'v1.0.7'
 
 """
 logs:
 
-1.0.6
-windows change
+1.0.7
+packaged
 
 """
 
