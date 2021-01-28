@@ -191,7 +191,7 @@ try:
         command = '-P stratum1+tcp://' + pool['wallet'] +'@' + pool['address'] + ':' + pool['port']
 
         if client_info['system'] == 'windows':
-            mine_proc = subprocess.Popen('ethminer/bin/ethminer.exe ' + command, shell = True) 
+            mine_proc = subprocess.Popen('"' + os.getcwd() + '/ethminer/bin/ethminer.exe" ' + command, shell = True) 
         elif client_info['system'] == 'linux': 
             mine_proc = subprocess.Popen('ethminer/bin/ethminer ' + command, shell = True)
         else:
