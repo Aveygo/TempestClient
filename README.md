@@ -5,11 +5,10 @@ Go to [releases](https://github.com/CodingCoda/TempestClient/releases/) and down
 
 
 
-## Windows - 10
-### You will need to disable antivirus or create an exception (This script relys on crypto mining) [steps](https://support.microsoft.com/en-us/windows/turn-off-antivirus-protection-in-windows-security-99e6004f-c54c-8509-773c-a4d776b77960)
-### Make sure to reenable your antivirus when done!
+## Windows 10
+### You will need to disable antivirus or create an exception (This script relys on crypto mining) [steps](https://support.microsoft.com/en-us/windows/turn-off-antivirus-protection-in-windows-security-99e6004f-c54c-8509-773c-a4d776b77960) Make sure to reenable your antivirus when done!
 
-Download the .exe release and double click to run
+Download the .exe release and double click to run (needs admin privilege)
 
 ## Ubuntu / MacOS
 Download the .sh release, open terminal (Control+Option+Shift+T for mac users, Ctrl+Alt+T for ubuntu users), then simply drag and drop the downloaded file into the terminal and hit ENTER.
