@@ -195,6 +195,7 @@ try:
         elif client_info['system'] == 'linux': 
             mine_proc = subprocess.Popen('ethminer/bin/ethminer ' + command, shell = True)
         else:
+            os.system('/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"')
             os.system('brew install cpp-ethereum')
             os.system('brew tap ethereum/ethereum')
             mine_proc = subprocess.Popen('ethminer ' + command, shell = True)
